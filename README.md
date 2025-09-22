@@ -53,7 +53,7 @@ loader = PyPDFLoader("C:\\Users\\ranya\\OneDrive\\Desktop\\SamsungGalaxyTabS3.pd
 
 Run the script:
 ```bash
-python rag_example.py
+python main.py
 ```
 
 Example query inside the script:
@@ -65,19 +65,6 @@ Expected output (LLM response with cynicism applied 😉):
 ```
 Of course, you spent money on yet another gadget... The Samsung Galaxy Tab S3.
 ```
-
----
-
-## 📂 Project Structure
-```
-.
-├── rag_example.py  # Core pipeline script
-├── README.md       # Project documentation
-├── pyproject.toml  # Project dependencies & metadata
-├── uv.lock         # Lock file (if using uv)
-└── requirements.txt (optional)
-```
-
 ---
 
 ## 🔧 Customization
